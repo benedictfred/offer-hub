@@ -2,7 +2,7 @@
 
 import { useAuthGuard } from "@/hooks/use-auth-guard";
 import { ReactNode } from "react";
-import LoadingSpinner from "../ui/LoadingSpinner";
+import LoadingSpinner from "../ui/loading-spinner";
 import { AccessDenied } from "./AccessDenied";
 
 interface AuthGuardProps {
